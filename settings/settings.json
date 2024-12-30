@@ -10,7 +10,7 @@
     "========= user =========": "用户模块",
     "user": 
         {
-        "key1": "Miaohaodong",
-        "key2": "Tianqiuyan"
+        "host": "Miaohaodong",
+        "hostess": "Tianqiuyan"
         }
     }

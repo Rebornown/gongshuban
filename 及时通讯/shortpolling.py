@@ -6,25 +6,16 @@
 浪费资源:高频率的操作功能，或者页面访问，导致的大量用户使用轮询时，会占用大量的网络资源，降低整
 体网络速度
 """
-count = 0
-timer = None
-# 超时时间
-max_time = 10 * 1000
-# 心跳间隙
-heartbeat_interval = 1000
+import sys 
+sys.path.append('../settings')
 
+from settings.packages import *
+# import time
 
-def fetchData():
-    # 模拟请求后端数据
-    return 
-    pass
+def poll_task():
+    # 任务
+    print("Polling task is run")
 
-def doSomething():
-    # 异步轮询，党超时或接口返回true时，中断轮询
- 
-
-    pass
-
-if __name__ == "__main__":
-
-    doSomething()
+while True:
+    poll_task()
+    time.sleep(5)
