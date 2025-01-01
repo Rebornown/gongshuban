@@ -12,5 +12,10 @@
         {
         "host": "Miaohaodong",
         "hostess": "Tianqiuyan"
+        },
+    "========= log =========": "日志目录",
+    "logdir": 
+        {
+        "log": "log.log"
         }
     }
