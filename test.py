@@ -1,4 +1,4 @@
-from settings.packages import *
+from config.packages import *
 
 
 logging.debug("This is a debug log")

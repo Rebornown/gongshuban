@@ -9,7 +9,7 @@
 import sys 
 sys.path.append('../settings')
 
-from settings.packages import *
+from config.packages import *
 # import time
 
 def poll_task():

@@ -7,7 +7,7 @@ parent_path = os.path.dirname(current_path)
 # 将父目录添加到 sys.path 中
 sys.path.append(parent_path)
 
-from settings.packages import *
+from config.packages import *
 
 logdir = ""
 
